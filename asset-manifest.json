@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/_masterchef/static/js/main.ce099476.js",
+    "static/media/magnifying_glass.jpg": "/_masterchef/static/media/magnifying_glass.dc3c494684e27efd18af.jpg",
+    "static/media/waitress_food.jpg": "/_masterchef/static/media/waitress_food.16246de65f3157844b7f.jpg",
+    "index.html": "/_masterchef/index.html",
+    "main.ce099476.js.map": "/_masterchef/static/js/main.ce099476.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ce099476.js"
+  ]
+}
