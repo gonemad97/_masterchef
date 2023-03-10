@@ -29,7 +29,7 @@ async function create_masterchef_db() {
     const csvtojson = require("csvtojson");
 
     // let url = "mongodb://localhost:27017/";
-    let url = "";
+    let url = "mongodb+srv://madhuripalanivelu:UIZndquQaETqh4vU@cluster0.fgkcqeo.mongodb.net/?retryWrites=true&w=majority";
 
     await csvtojson()
         .fromFile("../public/RAW_recipes_shortened.csv")

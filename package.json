@@ -2,8 +2,11 @@
   "name": "cs5610_masterchef",
   "version": "1.0.0",
   "description": "CS5610 Web Development Final Project",
+  "homepage": "https://gonemad97.github.io/_masterchef",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "watch": "webpack --watch",
     "compile": "webpack",
     "start": "node server/server.js",
@@ -26,6 +29,7 @@
     "@babel/preset-react": "^7.12.7",
     "babel-loader": "^8.2.2",
     "file-loader": "^6.2.0",
+    "gh-pages": "^5.0.0",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }

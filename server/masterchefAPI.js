@@ -6,7 +6,7 @@ async function getDB() {
     if (__client == null) {
         const { MongoClient } = require('mongodb');
         // const url = 'mongodb://localhost:/masterchef';
-        let url = "";
+        let url = "mongodb+srv://madhuripalanivelu:UIZndquQaETqh4vU@cluster0.fgkcqeo.mongodb.net/masterchef?retryWrites=true&w=majority";
         let client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true  });
         try {
             await client.connect(); // connect to server and save connection
