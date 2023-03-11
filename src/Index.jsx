@@ -4,6 +4,9 @@
 import glass from './db_images/magnifying_glass.jpg';
 import waitress from './db_images/waitress_food.jpg';
 
+import { HashRouter as Router } from "react-router-dom";
+
+
 /*
 * Welcome Message Component
 * First component displayed on start of MasterChef application
@@ -95,10 +98,12 @@ class MasterChefOptions extends React.Component {
 class MasterChefLanding extends React.Component {
     render() {
         return (
-            <React.Fragment>
-                <WelcomeComponent />
-                <MasterChefOptions />
-            </React.Fragment>
+            <Router>
+                <React.Fragment>
+                    <WelcomeComponent />
+                    <MasterChefOptions />
+                </React.Fragment>
+            </Router>
         );
     }
 }
