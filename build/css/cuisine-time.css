@@ -1,0 +1,160 @@
+h1{
+    padding-top: 20px;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font-size: 60px;
+    color: #e2e2e2;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    color: #eb9e0e;
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgba(0,0,0,0.65),
+    rgba(0,0,0,0.65)),
+    url("../images/peaches.jpg");
+    background-size: auto;
+    font-family: "Palatino Linotype","Book Antiqua",Palatino,serif;
+    font-size: 16px;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.timeInputs{
+    color:#e2e2e2;
+    font-size: 23px;
+    padding-bottom: 35px;
+}
+
+select{
+    vertical-align: 0.5px;
+    width: 60px;
+    height: 25px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: #4c2909;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+}
+
+.minutesInput{
+    padding-left: 50px;
+}
+
+.cuisine{
+    margin-left: -2%;
+}
+
+input[type=checkbox] + label {
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid #c96c18;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 0.2em;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+}
+
+input[type=checkbox] + label:active:before {
+    transform: scale(0);
+}
+
+input[type=checkbox]:checked + label:before {
+    background-color: #109f41;
+    border-color: #109f41;
+    color: #e2e2e2;
+}
+
+.cuisinePreference{
+    color:#e2e2e2;
+    border-color: #ddd;
+    padding-right: 12px;
+    display: inline-block;
+    font-size: 23px;
+}
+
+.backButton{
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    margin-top: 40px;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1em 2em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.backButton:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+    color: white;
+}
+
+.nextButton{
+    margin-top: 30px;
+    margin-left: 40%;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #e74c3c;
+    border-radius: 0.6em;
+    color: #e74c3c;
+    cursor: pointer;
+    align-self: center;
+    font-size: 1rem;
+    line-height: 1;
+    padding: 1em 2em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.nextButton:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+    color: white;
+}
+

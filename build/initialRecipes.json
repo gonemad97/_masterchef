@@ -1,0 +1,34 @@
+{
+  "recipes": [
+    {
+      "id": 137739,
+      "image": "/public/images/000168.jpg",
+      "title": "arriba baked winter squash mexican style",
+      "time": 30
+    },
+    {
+      "id": 31490,
+      "image": "/public/images/000168.jpg",
+      "title": "a bit different  breakfast pizza",
+      "time": 30
+    },
+    {
+      "id": 112140,
+      "image": "/public/images/000168.jpg",
+      "title": "all in the kitchen  chili",
+      "time": 130
+    },
+    {
+      "id": 59389,
+      "image": "/public/images/000168.jpg",
+      "title": "alouette  potatoes",
+      "time": 45
+    },
+    {
+      "id": 44061,
+      "image": "/public/images/000168.jpg",
+      "title": "amish  tomato ketchup  for canning",
+      "time": 190
+    }
+  ]
+}
