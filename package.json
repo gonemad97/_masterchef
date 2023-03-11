@@ -4,7 +4,6 @@
   "description": "CS5610 Web Development Final Project",
   "main": "index.js",
   "scripts": {
-    "build": "react-scripts build",
     "watch": "webpack --watch",
     "compile": "webpack",
     "start": "node server/server.js",
