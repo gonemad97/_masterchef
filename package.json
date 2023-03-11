@@ -6,8 +6,9 @@
   "scripts": {
     "watch": "webpack --watch",
     "compile": "webpack",
-    "start": "node server/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve -s node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "npm run build"
   },
   "author": "Madhuri Palanivelu",
   "license": "ISC",
@@ -20,6 +21,7 @@
     "react-bootstrap": "^1.4.0",
     "react-router-dom": "^6.9.0",
     "react-scripts": "^5.0.1",
+    "serve": "^14.2.0",
     "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
