@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "webpack --watch",
     "compile": "webpack",
-    "start": "serve server/server.js",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Madhuri Palanivelu",
